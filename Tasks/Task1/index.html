@@ -7,21 +7,22 @@
     <script>
       // Code One
       // don't work because script code is in the head before html file load
-      document.getElementById("el").style.color = "red";
+      <!-- document.getElementById("el").style.color = "red"; -->
     </script>
     <script>
       // Code Two
-      window.onload = function () {
-        document.getElementById("el").style.color = "blue";
-      };
+      <!-- window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      }; -->
     </script>
   </head>
   <body>
-    <h1 id="el">Page Title</h1>
-    <script>
-      // Code Three
-      // works 
-      document.getElementById("el").style.color = "red";
-    </script>
+    <!-- <h1 id="el">Page Title</h1>
+    <script> -->
+      <!-- Code Three -->
+       <!-- works  -->
+      <!-- document.getElementById("el").style.color = "red";
+    </script> -->
+    <script src="./script.js"></script>
   </body>
 </html>
