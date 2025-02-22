@@ -5,3 +5,7 @@ document.querySelector("h1").style.fontWeight = "bold";
 document.querySelector("h1").style.fontFamily = "Arial";
 document.querySelector("h1").style.textAlign = 'center';
 document.querySelector("h1").style.fontSize = '80px';
+
+console.log("%cElzero %cWeb %cSchool", "color: red; font-size: 40px;" , 
+    "color: green; font-size: 40px; font-weight: bold;", 
+    "color: white; background-color: blue; font-size: 40px");
