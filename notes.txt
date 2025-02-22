@@ -1,0 +1,87 @@
+I hope this notes be helpful.
+
+what is javascript ?
+    1- Scripting or Programming language.
+    2- Working on client side{(browser),(frontend)} and server side (Backend).
+    3- Making web page interactive.
+
+what can js do ?
+    1- Dynamically update content.
+    2- Manipulating html and css.
+    3- Animate pictures and content and create image gallery.
+    4- Manipulate and validate data.
+    5- control multimedia(audio, video, etc..).
+    6- web browser games.
+    7- mobile apps.
+    8- cross apps using platform.
+
+Content:
+    1- core language.
+    2- DOM.
+    3- BOM.
+    4- OOP.
+    5- ES6, ES7.
+    6- Practice.
+
+How to study the course ?
+    1- focus.
+    2- always search.
+    3- ask how to fix not fix (what i need to fix this problem).
+    4- start idea.
+    5- check lessons code.
+    6- do the assignment.
+    7- submit on facebook group.
+
+Console :
+    1- you can write any javascript code in it.
+
+where to put js code:
+    - prefer to put it in the end of the body or using defer in <script> defer </script>.
+
+where to use the comment?
+    when I want to explain upnormal thing, not explain the normal orders.
+
+widow functions.
+    1- window.alert(what you want to alert user)
+        -The alert box takes the focus away from the
+         current window, and forces the user to read the message.
+        -Do not overuse this method. It prevents the
+         user from accessing other parts of the page until the alert box is closed.
+    
+    // write html element from js code.
+document.write("<h2>hay fai<br>fjads</h2>");
+
+    // write message in console
+console.log("hello console.");
+
+Console Methods and styling and web api
+
+    Console Methods
+        - log (writing on console).
+        - error (writing on console as an error
+            and tell you in console the line for this error in js code).
+        - table (show array in table in console)
+            console.table([12, 22, 33]);
+
+    Styling Console
+            -Directive %c : give style for element in console and the styling is applied
+                            until you give it another %c, it will change styling.
+                - console.log("hello from %cjs %cfile", "color: red; font-size: 40px;", "color: blue; font-size: 40px;");
+                    write on console and style it. using %c.
+
+    Console not from javascript; but it is web api.
+        and javascript uses console by his syntax.
+
+ES6, ES7 (Standards Followed) 
+    : Ecma International is an industry association dedicated to the standardization of information and communication systems
+
+Data type and typeof operator
+    - typeof(data) or typeof data --> for knowing the type of data
+    - types
+        - string (number of characters)
+        - number (int or float)
+        - array => object => ex: [1,2,3]
+        - object  => ex: {name: "omar", age: 20, country: "eg"}
+        - boolean => true or false
+        - undefined 
+        - null => object 
