@@ -26,3 +26,5 @@ console.groupEnd();
 console.group("Group 2");
     console.log("Message One");
     console.log("Message Two");
+
+console.table(["Elzero", "Ahmed", "Sameh", "Gamal", "Aya"]);
