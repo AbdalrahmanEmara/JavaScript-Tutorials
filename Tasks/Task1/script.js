@@ -28,3 +28,6 @@ console.group("Group 2");
     console.log("Message Two");
 
 console.table(["Elzero", "Ahmed", "Sameh", "Gamal", "Aya"]);
+
+// console.log("Iam In Console");
+// document.write("Iam In Page");
