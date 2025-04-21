@@ -31,3 +31,24 @@ console.log(getDetails("Osama Mohamed", "38 Is My Age", "Egypt"));
 
 console.log(getDetails("Ahmed ali", "32 Is The Age", "Syria"));
 // Hello Ahmed A., Your Age Is 32, You Live In SY
+
+///////////////////////////////////////////////////////////////////////////////
+console.log('Two');
+function itsMe() {
+  return `Iam A Normal Function`;
+}
+const arro = () => `Iam A Normal Function`;
+
+console.log(arro());  // Iam An Arrow Function
+console.log(itsMe()); // Iam A Normal Function
+
+function urlCreate(protocol, web, tld) {
+  return `${protocol}://www.${web}.${tld}`;
+}
+
+const a2 = (protocol, web, tld) => `${protocol}://www.${web}.${tld}`;
+console.log(a2("https", "elzero", "org"));
+
+console.log(urlCreate("https", "elzero", "org")); // https://www.elzero.org
+
+////////////////////////////////////////////////////////////////////////////
